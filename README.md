@@ -36,3 +36,11 @@ We are using the following patterns and components:
 
 ## 🔧 How to Run (To be added)
 Instructions for setting up and running the backend locally.
+
+## ✅ MongoDB Atlas Integration
+We use MongoDB Atlas to store listing data in a cloud-based NoSQL database.
+
+- Connection is configured via `appsettings.json`
+- Data access is handled through `ListingService.cs`
+- Listings are stored in `EcommerceDB.Listings`
+- Verified using Swagger POST and checked in MongoDB Atlas UI
